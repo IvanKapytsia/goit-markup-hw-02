@@ -102,7 +102,13 @@ address {
 .advantages {
 }
 .advantages-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .advantages-list {
 }
@@ -206,7 +212,7 @@ address {
 .footer-logo span:focus {
   color: #404bbf;
 }
-.footer-logo span {
+.footer-logo-span {
   color: #f4f4fd;
 }
 
