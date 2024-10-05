@@ -1,3 +1,8 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
 ul {
   list-style: none;
 }
@@ -18,11 +23,18 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-span-studio {
+
+.header-logo:hover,
+.header-logo span:hover,
+.header-logo:focus,
+.header-logo span:focus {
+  color: orange;
+}
+
+.header-logo span {
   color: #2e2f42;
 }
 .header-menu {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -33,19 +45,25 @@ a {
 }
 .header-menu-link {
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: orange;
+}
 .header-contacts {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 .header-contacts-list {
 }
 .header-contacts-item {
 }
 .header-contacts-link {
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: orange;
 }
 
 /*section promo*/
@@ -55,7 +73,6 @@ a {
   background: #2e2f42;
 }
 .promo-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -64,12 +81,15 @@ a {
   color: #fff;
 }
 .promo-button {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.promo-button:hover,
+.promo-button:focus {
+  color: orange;
 }
 /*section advantages*/
 .advantages {
@@ -81,7 +101,6 @@ a {
 .advantages-item {
 }
 .advantages-item-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -89,18 +108,15 @@ a {
   color: #2e2f42;
 }
 .advantages-item-description {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
 }
 /*section team*/
 .team {
   background: #f4f4fd;
 }
 .team-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -115,7 +131,6 @@ a {
 .team-member-photo {
 }
 .team-member-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,19 +139,16 @@ a {
   color: #2e2f42;
 }
 .team-member-role {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 /*Our Portfolio*/
 .portfolio {
 }
 .portfolio-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -151,7 +163,6 @@ a {
 .portfolio-item-image {
 }
 .portfolio-item-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -159,12 +170,10 @@ a {
   color: #2e2f42;
 }
 .portfolio-item-category {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /*footer*/
@@ -180,17 +189,17 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-span-studio {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer-logo:hover,
+.footer-logo span:hover,
+.footer-logo:focus,
+.footer-logo span:focus {
+  color: orange;
+}
+.footer-logo span {
   color: #f4f4fd;
 }
+
 .footer-description {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
