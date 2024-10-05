@@ -64,10 +64,11 @@ address {
 .header-contacts-item {
 }
 .header-contacts-link {
+  color: #434455;
 }
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: orange;
+  color: #404bbf;
 }
 
 /*section promo*/
